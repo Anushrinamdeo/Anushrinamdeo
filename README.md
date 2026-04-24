@@ -1,4 +1,14 @@
-<h1 align="center">Hi 👋, I'm Anushri</h1>
+# Anushri | Software Development Engineer
+
+I specialize in building **fault-tolerant backend systems** and **distributed architectures**. 
+My background in Data Analysis allows me to build systems with a deep understanding of data integrity and performance.
+
+### 🏗️ Core SDE Projects
+- **Event-Driven Order System:** Distributed pipeline using BullMQ and RabbitMQ to handle high-concurrency order flows.
+- **Secure API Gateway:** MERN-stack portal with role-aware validation and schema enforcement.
+
+### 📊 Technical Cross-Training
+- **Airbnb Pricing Engine:** Applied statistical modeling to quantify price drivers (Python/OLS).<h1 align="center">Hi 👋, I'm Anushri</h1>
 <h3 align="center">Turning raw data into meaningful stories 📊✨</h3>
 
 ---
