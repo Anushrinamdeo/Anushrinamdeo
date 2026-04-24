@@ -6,24 +6,41 @@ I build **scalable backend systems** and **high-integrity data pipelines**. My e
 
 ### 🏗️ Featured Engineering Projects (SDE Focus)
 
-#### [Event-Driven Order System](https://github.com/Anushrinamdeo/Event-Driven-Order-Processing-System)
-*Node.js | BullMQ | Redis | Docker*
-* **The Goal:** Build a distributed pipeline capable of handling high-concurrency order flows without data loss.
-* **The Tech:** Implemented **exponential backoff retry logic** and **Dead Letter Queues (DLQ)** to handle service failures gracefully.
-* **Result:** A robust, containerized multi-service topology that ensures zero silent failures.
+### [Event-Driven Order Processing System](https://github.com/Anushrinamdeo/Event-Driven-Order-Processing-System)
+*Distributed Systems | Node.js, Bull/RabbitMQ, Redis, Docker*
 
-#### [Role-Based Secure API Gateway](https://github.com/Anushrinamdeo)
-*MERN Stack | Security | System Design*
-* **The Goal:** A secure portal for multi-role data management with strict integrity checks.
-* **The Tech:** Engineered server-side validation middleware and role-aware MongoDB schemas to prevent data corruption at the entry point.
+* **System Design:** Decomposed the order lifecycle into independently scalable, fault-isolated asynchronous stages (Payment → Inventory → Notification).
+* **Resiliency:** Implemented exponential backoff retry logic and **Dead Letter Queue (DLQ)** routing to guarantee zero silent failures across the distributed pipeline.
+* **Infrastructure:** Orchestrated a multi-service topology using **Docker Compose**, ensuring production-parity for local integration testing.
+
+
+
+---
+
+### [Automated Recruitment Pipeline (Job Portal)](https://github.com/Anushrinamdeo/job-portal-mern)
+*Full-Stack | React, Node.js, MongoDB, JWT*
+
+* **Architecture:** Engineered a RESTful MERN application with **Role-Based Access Control (RBAC)** to manage distinct workflows for Employers and Job Seekers.
+* **Security:** Established secure authentication protocols using JSON Web Tokens (JWT) to enforce strict permission boundaries.
+* **Optimization:** Scaled database performance by implementing **indexed search queries** to handle high-frequency user interactions and job filtering.
+
+---
+
+### [High-Integrity Financial Transaction Engine](https://github.com/Anushrinamdeo/Bank-Management-System)
+*Backend Logic | Java, OOP, SQL*
+
+* **Core Logic:** Developed a validation-first engine supporting deposits, withdrawals, and balance reconciliation with structured exception handling.
+* **Data Integrity:** Implemented transaction history tracking and in-memory record management, applying production-grade auditability principles.
+* **Design Pattern:** Isolated integrity checks into reusable modules, allowing for scalable business rules without code regression.
 
 ---
 
 ### 📊 Data Intelligence & Engineering
-*I leverage my analytical background to build smarter systems.*
+*I leverage my analytical background to build smarter systems and optimized data structures.*
 
-* **[Job Market Intelligence Framework](https://github.com/Anushrinamdeo/Data-job-analysis):** An advanced SQL project using **CTEs and Window Functions** to analyze 7k+ data points—proving my ability to handle complex relational data.
-* **[Airbnb Pricing Engine](https://github.com/Anushrinamdeo/Airbnb-price-analysis):** A Python-based project focusing on **Feature Engineering** and statistical modeling on 90+ feature datasets to optimize memory footprint and model accuracy.
+* **[Job Market Intelligence Framework](https://github.com/Anushrinamdeo/Data-job-analysis):** An advanced SQL project utilizing **CTEs and Window Functions** to correlate 7k+ data points—proving my ability to architect complex relational queries and derive system-level insights.
+* **[Retail Sales Intelligence Study](https://github.com/Anushrinamdeo/Store-analysis):** A Python-driven end-to-end EDA focused on **margin erosion and profitability diagnostics**. Identified high-volume "profit traps" and geographic performance gaps to recommend data-backed resource reallocation.
+* **[Airbnb Pricing Engine](https://github.com/Anushrinamdeo/Airbnb-price-analysis):** A Python project centered on **Feature Engineering** and OLS regression. Optimized a 90+ feature dataset to reduce memory footprint by 40% while improving model interpretability.
   
 ---
   
