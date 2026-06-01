@@ -4,7 +4,7 @@ I build **scalable backend systems** and **high-integrity data pipelines**. My e
 
 ---
 
-### 🏗️ Featured Engineering Projects (SDE Focus)
+### 🏗️ Featured Engineering Projects 
 
 ### [Event-Driven Order Processing System](https://github.com/Anushrinamdeo/Event-Driven-Order-Processing-System)
 *Distributed Systems | Node.js, Bull/RabbitMQ, Redis, Docker*
