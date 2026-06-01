@@ -34,15 +34,6 @@ I build **scalable backend systems** and **high-integrity data pipelines**. My e
 * **Design Pattern:** Isolated integrity checks into reusable modules, allowing for scalable business rules without code regression.
 
 ---
-
-### 📊 Data Intelligence & Engineering
-*I leverage my analytical background to build smarter systems and optimized data structures.*
-
-* **[Job Market Intelligence Framework](https://github.com/Anushrinamdeo/Data-job-analysis):** An advanced SQL project utilizing **CTEs and Window Functions** to correlate 7k+ data points—proving my ability to architect complex relational queries and derive system-level insights.
-* **[Retail Sales Intelligence Study](https://github.com/Anushrinamdeo/Store-analysis):** A Python-driven end-to-end EDA focused on **margin erosion and profitability diagnostics**. Identified high-volume "profit traps" and geographic performance gaps to recommend data-backed resource reallocation.
-* **[Airbnb Pricing Engine](https://github.com/Anushrinamdeo/Airbnb-price-analysis):** A Python project centered on **Feature Engineering** and OLS regression. Optimized a 90+ feature dataset to reduce memory footprint by 40% while improving model interpretability.
-  
----
   
 ### 🛠️ Technical Arsenal
 
