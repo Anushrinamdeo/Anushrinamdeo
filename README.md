@@ -4,34 +4,25 @@ I build **scalable backend systems** and **high-integrity data pipelines**. My e
 
 ---
 
-### 🏗️ Featured Engineering Projects 
+### 🏗️ Featured Engineering Projects
 
-### [Event-Driven Order Processing System](https://github.com/Anushrinamdeo/Event-Driven-Order-Processing-System)
-*Distributed Systems | Node.js, Bull/RabbitMQ, Redis, Docker*
+#### 🚀 [Event-Driven Order Processing System](https://github.com/Anushrinamdeo/Event-Driven-Order-Processing-System)
+*Distributed Systems | Node.js, Bull/RabbitMQ, Redis, Docker Compose*
+*   **System Design:** Decomposed a multi-stage order processing lifecycle into independent, fault-isolated asynchronous micro-stages.
+*   **Data Resiliency:** Implemented exponential backoff retry mechanisms and **Dead Letter Queue (DLQ)** structures to guarantee zero silent failures and achieve complete end-to-end auditability.
+*   **Monitoring:** Developed a real-time health dashboard to track queue throughput, network consumer lag, and failure rates.
 
-* **System Design:** Decomposed the order lifecycle into independently scalable, fault-isolated asynchronous stages (Payment → Inventory → Notification).
-* **Resiliency:** Implemented exponential backoff retry logic and **Dead Letter Queue (DLQ)** routing to guarantee zero silent failures across the distributed pipeline.
-* **Infrastructure:** Orchestrated a multi-service topology using **Docker Compose**, ensuring production-parity for local integration testing.
+#### 🔐 [Automated Recruitment Pipeline](https://github.com/Anushrinamdeo/job-portal-mern)
+*Full-Stack | React.js, Node.js, Express.js, MongoDB, JWT*
+*   **Security Architecture:** Engineered a robust MERN application featuring **Role-Based Access Control (RBAC)** to enforce clear data isolation boundaries between multi-tier users.
+*   **Session Management:** Implemented secure user authentication and identity verification using cryptographically signed JSON Web Tokens (JWT).
+*   **Performance Optimization:** Scaled database response efficiency by applying targeted indexing strategies for heavy multi-parameter filtering.
 
-
-
----
-
-### [Automated Recruitment Pipeline (Job Portal)](https://github.com/Anushrinamdeo/job-portal-mern)
-*Full-Stack | React, Node.js, MongoDB, JWT*
-
-* **Architecture:** Engineered a RESTful MERN application with **Role-Based Access Control (RBAC)** to manage distinct workflows for Employers and Job Seekers.
-* **Security:** Established secure authentication protocols using JSON Web Tokens (JWT) to enforce strict permission boundaries.
-* **Optimization:** Scaled database performance by implementing **indexed search queries** to handle high-frequency user interactions and job filtering.
-
----
-
-### [High-Integrity Financial Transaction Engine](https://github.com/Anushrinamdeo/Bank-Management-System)
-*Backend Logic | Java, OOP, SQL*
-
-* **Core Logic:** Developed a validation-first engine supporting deposits, withdrawals, and balance reconciliation with structured exception handling.
-* **Data Integrity:** Implemented transaction history tracking and in-memory record management, applying production-grade auditability principles.
-* **Design Pattern:** Isolated integrity checks into reusable modules, allowing for scalable business rules without code regression.
+#### 📈 [High-Integrity Financial Engine](https://github.com/Anushrinamdeo/Bank-Management-System)
+*Backend Logic & Data Integrity | Java, OOP, SQL*
+*   **Deterministic Logic:** Programmed a validation-first banking system processing core transactions (deposits, tracking, reconciliation) backed by strict exception handling.
+*   **State Preservation:** Implemented precise runtime transaction history tracking to mirror high-grade logging and auditability practices.
+*   **Modular Architecture:** Isolated strict data validation constraints into standalone modules, protecting core business routines from regression cycles.
 
 ---
   
